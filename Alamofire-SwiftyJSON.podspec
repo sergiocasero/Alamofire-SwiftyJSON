@@ -10,7 +10,8 @@ Pod::Spec.new do |s|
   s.osx.deployment_target = "10.11"
   s.ios.deployment_target = "11.0"
   s.source   = { :git => "https://github.com/SwiftyJSON/Alamofire-SwiftyJSON.git", :tag => s.version }
+  s.source   = { :git => "https://github.com/sergiocasero/SwiftyJSON", :tag => s.version }
   s.source_files = "Source/*.swift"
   s.dependency 'Alamofire', '~> 4.5'
-  s.dependency 'SwiftyJSON', :git => 'https://github.com/sergiocasero/SwiftyJSON'
+  s.dependency 'SwiftyJSON', '~> 4.0.0'
 end
